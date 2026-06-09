@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Certificate Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Certificate Generator</h1>
+
+    <input type="text" id="studentName" placeholder="Student Name">
+    <input type="text" id="courseName" placeholder="Course Name">
+
+    <button id="generateBtn">
+        Generate Certificate
+    </button>
+
+    <div id="certificateInfo"></div>
+
+    <div id="qrcode"></div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<script type="module" src="app.js"></script>
+
+</body>
+</html>
