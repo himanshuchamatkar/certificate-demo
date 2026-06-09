@@ -29,7 +29,7 @@ btn.addEventListener("click", async () => {
     );
 
     const verifyUrl =
-        `http://127.0.0.1:5500/verify.html?id=${certId}`;
+`https://certificate-demo-eight.vercel.app/verify.html?id=${certId}`;
 
     document.getElementById("certificateInfo").innerHTML = `
         <h3>Certificate Created</h3>
